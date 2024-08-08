@@ -23,7 +23,9 @@ html {
     --font-size-xx-large: 4.8rem;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
-    
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8; 
 }
 
 .section-tagline, .card-category {
@@ -35,6 +37,7 @@ body {
     color: var(--text-color);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
 }
 
 a {
