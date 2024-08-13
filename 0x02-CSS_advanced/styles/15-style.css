@@ -157,10 +157,6 @@ html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
- 
-.visually-hidden {
-  display: none;
-}
   
 :root {
     --color-primary: #d73953;
@@ -185,10 +181,6 @@ html {
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
-}
-
-.card-category {
-    color: var(--color-primary);
 }
  
 body {
@@ -219,6 +211,14 @@ a:active {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  color: var(--color-primary);
 }
 
 .section-header {
